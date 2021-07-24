@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '<h1 style="color:red"> This is a number guessing game to start playing add &divide; in browser url bar and then enter your desired number</h1>' \
+    return '<h1 style="color:red"> This is a number guessing game to start playing add &#8725; in browser url bar and then enter your desired number</h1>' \
            '<img src="https://media.giphy.com/media/L40sNfcoJs5Op5afQU/giphy.gif" alt="game-gif">'
 
 
